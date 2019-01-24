@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyPortfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+<!--header-->
+       <nav class="transparent">
+           <div class="nav-wrapper">
+               <a href="#" class="brand-logo">My Portfolio</a>
+               <a href="#" class="sidenav-trigger" data-target="mobile">
+                   <i class="material-icons hide-on-large-only">menu</i>
+               </a>
+               <ul class="right hide-on-med-and-down">
+                   <li><a href="#about-me">About Me</a></li>
+                   <li><a href="#skills">Skills</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#contact">Contact Me</a></li>
+
+               </ul>
+           </div>
+       </nav>
+       <ul class="sidenav yellow" id="mobile">
+           <li><a href="#about-me">About Me</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact Me</a></li>
+       </ul>
+
+</header>
+<!--header-->
+
+<!--about me-->
+<section class="about-me scrollspy" id="about-me">
+<div class="center">
+    <h1 class="darken-3 grey-text ">About Me</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l9 ">
+    <p class="me"><blockquote class="me">I AM AN OUTGOING INDIVIDUAL WHO IS EAGER TO EXPLORE AND LEARN NEW THINGS.
+        A FAST LEARNER, I BRING ENERGY AND ENTHUSIASM TO THE TEAM, WITH GREAT INTERPERSONAL AND LEADERSHIP
+        SKILLS.
+        I VALUE WORK ETHIC AND HAVE EXPERIENCE IN WORKING IN AN ENVIRONMENT</blockquote></p>
+            </div>
+
+            <div class="col s12 l3 push-l1">
+                <img src="../myportfolio/img/dul.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+</div>
+</div>
+</section>
+
+<!--skills-->
+<section id="skills" class="scrollspy">
+<div class="center">
+    <h1 class="darken-3 grey-text ">SKILLS</h1>
+<div class="container">
+    <canvas id="myChart"></canvas>
+
+</div>
+</div>
+</section>
+<!--Projects-->
+<section id="projects" class="scrollspy">
+<div class="center">
+    <h1 class="grey-text">PROJECTS</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6 project">
+                Web Site design for Ultra Textile Printing
+                <p class="website">
+                    A website design for Ultra Textile Printing where I was previously employed at.
+                    The text content of the web page are yet to giving to me.
+                </p>
+
+            </div>
+            <div class="col s12 m6 l6">
+                <img src="../myportfolio/img/ultra.jpg" alt="" class="responsive-img">
+
+                <a href="https://dulshaniko7.github.io/ultra/index.html">You can visited the page here</a>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col s12 m6 l6 project2">
+
+
+                    <img src="../myportfolio/img/discover.png" alt="" class="responsive-img">
+
+                    <a href="https://dulshaniko7.github.io/DiscoverLife/index.html">You can visited the page here</a>
+            </div>
+                <div class="col s12 m6 l6 project2">
+                    Test Web Site for travel Agency
+                    <p class="website">
+                       This is a dummy web site which I develop for improve my knowledge
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6 l6 project2 ">
+                Web Site design for Coffee Shop
+                <p class="website">
+                    This is a dummy web site which I develop for improve my knowledge
+                </p>
+
+            </div>
+            <div class="col s12 m6 l6">
+                <img src="../myportfolio/img/IMG_6892.jpg" alt="" class="responsive-img">
+
+                <a href="https://dulshaniko7.github.io/coffeshop/">You can visited the page here</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</section>
+<!--Contact-->
+<section id="contact" class="scrollspy">
+<div class="center">
+    <h1 class="grey-text">CONTACT</h1>
+    <div class="container">
+<h6>Phone No - 0766481255</h6>
+        <h6>Email  -  dulshaniko7@gmail.com</h6>
+
+    </div>
+    </div>
+</section>
+<!--Contact-->
+<footer class="footer black">
+
+
+    &copy All Right Received
+
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"> </script>
+<script>
+    $(document).ready(function () {
+        $(".sidenav").sidenav();
+
+        $('.scrollspy').scrollSpy();
+    });
+
+</script>
+</body>
+</html>
